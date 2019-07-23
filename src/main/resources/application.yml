@@ -1,0 +1,26 @@
+################server################
+server:
+  port: 8085
+  
+spring:
+  application:
+    name: comic-api
+################log################
+logging:
+  level:
+    org:
+      ll: DEBUG
+      springframework:
+        security: DEBUG
+        web: DEBUG
+  file: logs/comic.log
+  
+  
+redis:
+  host: localhost
+  port: 6379
+  password: '{cipher}AQBsg9xI/3tf6kxipWUDSm8Es9//VQlMdx9JGYd3FGXT6Iz9Zwhiht/oStN0uCAb8G1p4FKjiLzyMVOf4FqHBnSYuywED3AYeghrRxw8XZHQAThkQSSoQ9kQoEDNXYntK2F0erDrNuinmOymhAm+Qh4IxGTZ6pHxiNBECl56lxfnYmdhg/P855StNFIO8eGu82VQrbFBg/TfxZwZBYlmUB3Z39AmBPRBtGjOLpPcGl+Db5qKAtK9LLQy7Pa60usGwNwR65CsUM/NF3W/97pmT5sp70IXh1NRuMFnXgPg0k2aWdJ78r6T/aBab5DIiQhzvKmdHoDUJNJFikZ6SUoTB6IWUwqEsF09kyY9A8XxMbr38rsDYdtYLHuJN7ZqT7Zp8qQ='
+################nyao################  
+nyao:
+  search:
+    url: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=%E5%85%A8%E8%81%8C%E7%8C%8E%E4%BA%BA&p=3&cb=BaiduSuggestion.callbacks.give1&t=1527408608590
